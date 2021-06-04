@@ -1,0 +1,42 @@
+.addpurchase-global{
+    background-image: url(../../img/fabric_of_squares_gray.png);
+    height: 100vh;
+}
+
+.addpurchase-header{
+    background-color: #1ea1c2;
+    color: #FFEB0A;
+    text-shadow: 1px 1px 5px black;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+}
+
+.addpurchase-content{
+    padding-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .addpurchase-content{
+        width: 80%;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .addpurchase-content{
+        width: 60%;
+    }
+  }
+
+
+@media only screen and (min-width: 1024px) {
+    .addpurchase-content{
+        width: 40%;
+    }
+  }

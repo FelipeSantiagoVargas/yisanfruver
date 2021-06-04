@@ -9,9 +9,10 @@ app.set('port', process.env.PORT || 3100)
 app.use(cors())
 app.use(morgan('dev'))
 app.use(express.json())
-app.use(express.urlencoded({extended:false}))
+app.use(express.urlencoded({ extended: true }))
 
 app.use('/api/products',require('./routes/products.routes.js'))
+app.use('/api/purchases',require('./routes/purchases.routes.js'))
 // app.use('/api/orders',require('./routes/orders.routes'))
 // app.use('/api/sales',require('./routes/sales.routes'))
 

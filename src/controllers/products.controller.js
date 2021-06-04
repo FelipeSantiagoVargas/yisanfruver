@@ -7,5 +7,4 @@ productsCtrl.getProducts = async(req,res)=>{
     res.json(products.rows)
 }
 
-
 module.exports = productsCtrl
